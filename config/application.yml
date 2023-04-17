@@ -1,0 +1,23 @@
+name: loanapp
+
+server:
+  port: 8080
+
+
+aws:
+  region: us-east-1
+  profile: default
+
+mysql:
+  maxConnections: 100
+  maxIdleConnections: 10
+  maxConnectionLifetime: 3600
+
+sampling:
+  fraction: 0
+
+metrics:
+  tickInterval: 5
+
+timeout:
+  seconds: 10
